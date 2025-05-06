@@ -1,5 +1,3 @@
-
-
 export default function Hero() {
   return (
     <>
@@ -17,7 +15,6 @@ export default function Hero() {
             >
               Explore More!
             </a>
-
           </div>
         </div>
 

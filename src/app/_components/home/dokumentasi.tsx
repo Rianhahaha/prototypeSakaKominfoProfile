@@ -1,7 +1,7 @@
 'use client';
-import Bgtext from "../bgtext";
-import Image from "next/image";
-import KridaCard from "./component/kridaCard";
+// import Bgtext from "../bgtext";
+// import Image from "next/image";
+// import KridaCard from "./component/kridaCard";
 import Carousel from "./component/carousel";
 
 
