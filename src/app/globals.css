@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Tilt+Warp&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #01050b;
+  --main: #14C4FF;
+}
+
+* {
+  @apply scroll-smooth;
+}
+section:first-child {
+  @apply bg-transparent;
+  background-image: none !important;
+}
+section:nth-child(even) {
+  @apply bg-gradient-to-b from-black to-[#020A18];
+}
+section:nth-child(odd) {
+  @apply bg-gradient-to-b to-black from-[#020A18]; 
+}
+.krida-card:nth-child(2) {
+
+  @apply mt-[5rem];
+
+}
+
+.hovered {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+body {
+  color: white;
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
