@@ -15,7 +15,6 @@ export default function Hero() {
               href=""
               className=" w-fit px-[40px] py-3 border-2 border-main text-lg bg-transparent text-white font-Warp rounded-full hover:bg-white/10 hovered"
             >
-              {" "}
               Explore More!
             </a>
 
