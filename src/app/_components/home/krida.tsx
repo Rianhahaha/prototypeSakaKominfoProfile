@@ -1,4 +1,3 @@
-import Bgtext from "../bgtext";
 import Image from "next/image";
 import KridaCard from "./component/kridaCard";
 

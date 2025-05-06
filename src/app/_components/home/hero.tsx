@@ -1,4 +1,4 @@
-import Bgtext from "../bgtext";
+
 
 export default function Hero() {
   return (
